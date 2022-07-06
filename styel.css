@@ -1,0 +1,290 @@
+body{
+   
+    font-family: 'Lato', sans-serif;
+}
+
+/* Help section start  */
+*{
+    margin: 0;
+    padding: 0;
+}
+.Help-people{
+    background-image:url(/img/donation0.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    
+}
+
+.overlay{ 
+    width: 60.89%;
+    height: 17.62%;
+    font-size: 16px;
+    font-family: cursive;
+    padding: 210px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.overlay p{
+    padding: 2%;
+}
+  
+.button{
+    width: 9%;
+    padding: 1%;
+    background-color: #ff0000b2;
+    color: white;
+    text-decoration: none;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.671)
+    
+      
+}
+.container{
+    margin-bottom: 140px;
+}
+
+/* Help section ends  */
+
+/* Donate Section start */
+
+.Donate{
+    text-align: center;
+    padding-bottom:2%;
+    
+}
+.Donate P{
+    padding-left: 400px;
+    padding-right: 400px ;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.Donate-button{   
+   width: 100px;
+   height: 40px;
+   border: 2px solid rgb(245, 243, 243);
+   margin: 10px;
+   padding-bottom:2% ;
+   margin-left: 1%;
+   transition: 3s;
+
+   
+}
+.Donate-button:hover{
+    
+    background-color: rgba(105, 4, 4, 0.884);
+}
+.flex{
+    display: flex;
+    margin-left: 30%;
+}
+.text{
+    color: #808080a4;
+    padding-top: 4%;   
+}
+/* Donate Section ends */
+
+
+
+/* Our Donate plan start */
+
+.Button-1{
+   width: 100%;
+   height: 100%;
+   margin-left: 5%;
+   
+   margin-top: 5%;
+   padding: 4%;
+   box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.671);
+   font-size: 12px;
+   
+   border-radius: 5%;
+   background-color: #EDF5F6;   
+   
+}
+
+.Button-2{
+    width: 100%;
+    height: 70%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    padding: 4%;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.671);
+    text-align: left;
+    
+    border-radius: 5%;
+    background-color: #FEEEEE;
+    font-size: 13px;
+    
+}
+.Button-3{
+    width: 100%;
+    height: 70%;
+    
+    margin-right: 5%;
+    margin-top: 5%;
+    padding: 4%;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.671);
+    text-align: left;
+    
+    border-radius: 5%;
+    background-color: #FFF3D8;
+    font-size: 12px;
+}
+
+
+.flex-item{
+    display:flex;
+
+}
+.Button-1 img{
+    padding-left: 5% ;
+    width: 60px;
+    height: 60px;
+    padding-bottom: 1%;
+    ;
+}
+
+.Button-2 img{
+    padding-left: 28% ;
+    width: 60px;
+    height: 60px;
+    padding-bottom: 5%;
+    
+    
+}
+
+.Button-3 img{
+    padding-left: 28% ;
+    width: 60px;
+    height: 60px;
+    padding-bottom: 5%;
+    ;
+}
+.para p{
+    padding-top: 5%;
+}
+/* Our Donate plan ends */
+
+
+/* viral news todays start */
+.News{
+    width: 300px;
+    height: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    padding: 4%;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.671);
+    text-align: left;
+    text-align: justify;
+    border-radius: 5%;
+    background-color: #FFF3D8;
+    
+}
+.News img{
+ width: 20%;
+ padding: 10%;
+}
+.header {
+    text-align: center;
+    
+}
+
+.halper{
+    text-align: center;
+    margin: 5%;
+    padding-bottom: 10%;   
+    font-size: 13px;
+    
+}
+
+.work{
+    
+    margin-top: 5%;
+}
+.dise-item{
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4%;
+    border: #797b83;
+    box-shadow: 5px 5px 10px rgb(114, 13, 13);
+    text-align: left;
+    text-align: justify;
+    border-radius: 5%;
+    margin-top: 3%;
+}
+.dise-item img{
+    width: 100%;
+    height: 70%;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.671)
+}
+.dise-item p{
+    text-align: justify;
+}
+.Buttom{
+    margin-left: 40%;
+    margin-right: auto;
+    text-decoration: none;
+    background-color: #ff0000b2;
+    color: rgb(250, 245, 245);
+    padding: 10px 20px;
+    
+    font-weight: 700;
+}
+/* viral news todays ends */
+
+
+/* Updates section start */
+.subscribe{
+    width: 50.89%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 15.62%;
+    font-size: 16px;
+    padding:5%;
+    text-align: center;
+    
+    background-color: #fff4d6;
+}
+.email{
+    width: 45%;
+    padding: 2%;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.671)
+}
+.subscrib{
+    width: 11%;
+    padding: 2%;
+    background-color: #ff0000b2;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.671)
+    
+    
+}
+/* footer start*/
+
+footer {
+    background-color: black;
+    height: 130px;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+}
+.be-color{
+    color: orangered;
+    
+}
+.humble-color{
+    color: #8f4646c9;
+
+}
+footer p{
+    color: #797b83;
+    padding-top: 1%;
+}
+/* footer ends */

@@ -17,11 +17,11 @@ body{
 }
 
 .overlay{ 
-    width: 60.89%;
-    height: 17.62%;
+    width: 65.79%;
+    height: 24.72%;
     font-size: 16px;
     font-family: cursive;
-    padding: 210px;
+    padding: 230px;
     text-align: center;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
@@ -67,12 +67,15 @@ body{
    margin: 10px;
    padding-bottom:2% ;
    margin-left: 1%;
-   transition: 3s;
+   transition: 1s;
+   box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.671);
 
    
 }
 .Donate-button:hover{
-    
+
+    border: none;
+    color: white;
     background-color: rgba(105, 4, 4, 0.884);
 }
 .flex{
@@ -209,9 +212,9 @@ body{
     width: 35%;
     margin-left: auto;
     margin-right: auto;
-    padding: 4%;
+    padding: 2%;
     border: #797b83;
-    box-shadow: 5px 5px 10px rgb(114, 13, 13);
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.671);
     text-align: left;
     text-align: justify;
     border-radius: 5%;
@@ -220,11 +223,13 @@ body{
 .dise-item img{
     width: 100%;
     height: 70%;
+    margin-bottom: 5%;
     border-radius: 5%;
-    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.671)
+    
 }
 .dise-item p{
     text-align: justify;
+
 }
 .Buttom{
     margin-left: 40%;
